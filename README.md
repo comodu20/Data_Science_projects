@@ -60,9 +60,9 @@ Projects exploring stochastic processes where future states depend only on the c
 💡 Key Insights/Outcome
 * On random walks: Markov chains are used to model stock price movements, where the future price depends only on the current price (memoryless property). Simulating random walks helps in understanding market trends and risk assessment.
 * On methodology finding stationary probability distribution:
-* * The accuracy of the Monte Carlo simulation apprach increases as number of steps increases
-  * Repeated Matrix Multiplication method is fastest
-  * The Left Eigen Vector method (similar to output in singular value decomposition (SVD))
+  - The accuracy of the Monte Carlo simulation apprach increases as number of steps increases
+  - Repeated Matrix Multiplication method is fastest
+  - The Left Eigen Vector method (similar to output in singular value decomposition (SVD))
 
 💻 Technologies: Python, numpy, pandas.
 
@@ -113,15 +113,18 @@ To explore these projects on your local machine:
 
 2. Create a virtual environment (recommended):
     python -m venv venv
+
 # On Windows:
 .\venv\Scripts\activate
+
 # On macOS/Linux:
 source venv/bin/activate
 
-3. **Install dependencies:** Most projects will rely on standard data science libraries. You can try installing common ones or check individual project folders for a `requirements.txt` file.bash
+3. Install dependencies: Most projects will rely on standard data science libraries. You can try installing common ones or check individual project folders for a `requirements.txt` file.bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+
 # Or if a requirements.txt exists:
-# pip install -r requirements.txt
+  pip install -r requirements.txt
 
 4. **Launch Jupyter Notebook:**bash
 jupyter notebook
