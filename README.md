@@ -1,7 +1,7 @@
-🔬 Data Science Project Portfolio
+# 🔬 Data Science Project Portfolio
 Welcome to my Data Science Project Portfolio! This repository serves as a showcase of my work in various domains of data science, ranging from predictive modeling and statistical analysis to machine learning algorithms. Each project aims to demonstrate my ability to tackle real-world problems, extract insights from data, and build robust analytical solutions.
 
-🎯 About This Repository
+## 🎯 About This Repository
 This collection of projects highlights my practical experience with data manipulation, exploratory data analysis (EDA), model building, evaluation, and interpretation. The goal is to provide a clear understanding of my thought process, methodologies, and the impact of the data-driven solutions I develop.
 
 Each project folder typically contains:
@@ -11,11 +11,12 @@ R scripts/files
 Relevant datasets (if permissible and small enough).
 Markdown files or comments explaining the process and findings.
 
-📂 Project Showcase
+## 📂 Project Showcase
 Here's an overview of the projects included in this repository. Click on the links to explore the detailed notebooks and code for each.
 
+### 📊 Python Projects
 
-📈 Predictive Analytics
+#### 📈 Predictive Analytics
 Project focused on forecasting future outcomes for an E-Commerce company's operational improvement utilising various supervised and unsupervised learning techniques.
 
 ❓Problems
@@ -45,7 +46,7 @@ Project focused on forecasting future outcomes for an E-Commerce company's opera
 
 
 
-⛓️ Markov Chains
+#### ⛓️ Markov Chains
 Projects exploring stochastic processes where future states depend only on the current state, often used in sequential data analysis.
 
 🚶 Markov Chain for Fast food restaurant
@@ -70,7 +71,7 @@ Projects exploring stochastic processes where future states depend only on the c
 ➡️ Explore Project: [Here](https://github.com/comodu20/My-Work_ipynb/blob/565ec2332b27923eb3a2fa563deb94e2754b39d7/UEL-DS/Markov%20processes/Markov%20chain%20simulation_1.ipynb)
 
 
-📉 Linear Regression
+#### 📉 Linear Regression
 Projects involving predicting a continuous outcome based on one or more predictor variables.
 
 🏠 Simple Linear Regression for [Your Project Name/Domain]
@@ -92,14 +93,17 @@ Projects involving predicting a continuous outcome based on one or more predicto
 Explore Project: [Here](https://github.com/comodu20/My-Work_ipynb/blob/2e79b50a85eb4003a14cf73500cd03090bcca3b4/UEL-DS/Linear%20Regression/Simple%20Linear%20Regression.ipynb)
 
 
-📊 R Projects
+### 📊 R Projects
 
 A collection of data analysis and statistical modeling projects implemented using the R programming language. These projects showcase various techniques for data exploration, hypothesis testing, machine learning, and visualisation in R.
 
 #### 🔄 2-Way ANOVA
-* **Problem:** ❓ [Briefly describe the problem addressed, e.g., "Analyzing the effects of two independent categorical variables on a continuous outcome."]
-* **Methodology:** 🪜 Performed a 2-Way Analysis of Variance to test for significant interactions and main effects.
-* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Identified significant effects of Factor A, Factor B, and their interaction on the response variable."]
+❓ Problem 
+* Analyzing the effects of two independent categorical variables on a continuous outcome.
+🪜 Methodology
+* Performed a 2-Way Analysis of Variance to test for significant interactions and main effects.
+💡 Key Insights/Outcome
+* Identified significant effects of Factor A, Factor B, and their interaction on the response variable."]
 * **Technologies:** 💻 R (e.g., `aov`, `ggplot2`).
 * **Explore Project:** ➡️ [Link to your-repo/r-projects/2way-anova/your_script.Rmd or relevant folder]
 
