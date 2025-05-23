@@ -7,6 +7,7 @@ This collection of projects highlights my practical experience with data manipul
 Each project folder typically contains:
 
 Jupyter Notebooks (.ipynb) detailing the analysis.
+R scripts/files
 Relevant datasets (if permissible and small enough).
 Markdown files or comments explaining the process and findings.
 
@@ -89,6 +90,96 @@ Projects involving predicting a continuous outcome based on one or more predicto
 💻 Technologies: Python, scikit-learn, pandas, numpy, matplotlib, seaborn.
 
 Explore Project: [Here](https://github.com/comodu20/My-Work_ipynb/blob/2e79b50a85eb4003a14cf73500cd03090bcca3b4/UEL-DS/Linear%20Regression/Simple%20Linear%20Regression.ipynb)
+
+
+📊 R Projects
+
+A collection of data analysis and statistical modeling projects implemented using the R programming language. These projects showcase various techniques for data exploration, hypothesis testing, machine learning, and visualisation in R.
+
+#### 🔄 2-Way ANOVA
+* **Problem:** ❓ [Briefly describe the problem addressed, e.g., "Analyzing the effects of two independent categorical variables on a continuous outcome."]
+* **Methodology:** 🪜 Performed a 2-Way Analysis of Variance to test for significant interactions and main effects.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Identified significant effects of Factor A, Factor B, and their interaction on the response variable."]
+* **Technologies:** 💻 R (e.g., `aov`, `ggplot2`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/2way-anova/your_script.Rmd or relevant folder]
+
+#### 🗺️ Introduction to Spatial Data Analysis
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Exploring and visualizing geographically referenced data to identify spatial patterns."]
+* **Methodology:** 🪜 Utilized R packages for loading, manipulating, and visualizing spatial data.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Demonstrated techniques for mapping spatial data and identifying geographic clusters."]
+* **Technologies:** 💻 R (e.g., `sf`, `ggplot2`, `leaflet`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/intro-to-spatial-data-analysis/your_script.Rmd or relevant folder]
+
+#### 🎲 Chi-Square Test
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Testing for association between two categorical variables."]
+* **Methodology:** 🪜 Applied Chi-Square tests (Goodness-of-Fit and Independence) to analyze observed frequencies against expected frequencies.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Determined a statistically significant association between X and Y categorical variables."]
+* **Technologies:** 💻 R (e.g., `chisq.test`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/chi-square/your_script.Rmd or relevant folder]
+
+#### 👥 Cluster Analysis
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Segmenting a dataset into natural groupings without prior labels."]
+* **Methodology:** 🪜 Implemented various clustering algorithms (e.g., K-Means, Hierarchical Clustering) and evaluated optimal cluster numbers.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Identified distinct clusters within the data, revealing underlying patterns for segmentation."]
+* **Technologies:** 💻 R (e.g., `stats`, `factoextra`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/cluster-analysis/your_script.Rmd or relevant folder]
+
+#### 📏 Cronbach's Alpha
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Assessing the internal consistency reliability of a psychometric scale or questionnaire."]
+* **Methodology:** 🪜 Calculated Cronbach's Alpha coefficient to measure how closely related a set of items are as a group.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Determined that the scale demonstrated high internal consistency (Cronbach's Alpha = X)."]
+* **Technologies:** 💻 R (e.g., `psych`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/cronbach-alpha/your_script.Rmd or relevant folder]
+
+#### 🌲 Decision Trees
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Building a predictive model for classification or regression tasks using a tree-like structure."]
+* **Methodology:** 🪜 Constructed and pruned decision tree models, visualizing decision rules and feature importance.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Developed a clear, interpretable model to predict X, with key decision rules based on features Y and Z."]
+* **Technologies:** 💻 R (e.g., `rpart`, `rpart.plot`, `caret`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/decision-trees/your_script.Rmd or relevant folder]
+
+#### 🧮 Factor Analysis
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Reducing the dimensionality of a dataset by identifying underlying latent factors."]
+* **Methodology:** 🪜 Performed Exploratory Factor Analysis to uncover relationships between observed variables and a smaller set of unobserved factors.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Identified 3 significant underlying factors explaining the variance in the dataset, simplifying further analysis."]
+* **Technologies:** 💻 R (e.g., `psych`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/factor-analysis/your_script.Rmd or relevant folder]
+
+#### 🗑️ Handling Missing Values
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Addressing incomplete data in a dataset to prepare it for analysis."]
+* **Methodology:** 🪜 Explored various imputation techniques (e.g., mean, median, mode, regression imputation) and deletion strategies.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Implemented a robust missing value handling strategy that improved model performance by X% and maintained data integrity."]
+* **Technologies:** 💻 R (e.g., `VIM`, `mice`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/handling-missing-values/your_script.Rmd or relevant folder]
+
+#### 🔗 Logistic Regression
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Predicting a binary outcome (e.g., yes/no, success/failure) based on predictor variables."]
+* **Methodology:** 🪜 Built and evaluated Logistic Regression models to estimate the probability of an event occurring.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Developed a model to predict X with Y accuracy, identifying key predictors and their influence."]
+* **Technologies:** 💻 R (e.g., `glm`, `caret`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/logistic-regression/your_script.Rmd or relevant folder]
+
+#### 🔗 Markov Chains
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Modeling sequential dependencies and transition probabilities in a system."]
+* **Methodology:** 🪜 Constructed Markov Chain models to analyze state transitions and long-term probabilities.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Analyzed customer journey paths, identifying common transitions and steady-state probabilities within a sales funnel."]
+* **Technologies:** 💻 R (e.g., `markovchain`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/markov-chains/your_script.Rmd or relevant folder]
+
+#### 📉 PCA Practice
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Reducing the dimensionality of a high-dimensional dataset while retaining most of its variance."]
+* **Methodology:** 🪜 Performed Principal Component Analysis (PCA) to transform variables into a new set of orthogonal components.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Successfully reduced 50 variables to 5 principal components, explaining 90% of the original variance, simplifying subsequent modeling."]
+* **Technologies:** 💻 R (e.g., `prcomp`, `factoextra`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/pca-practice/your_script.Rmd or relevant folder]
+
+#### 😊 Sentiment Analysis
+* **Problem:** ❓ [Briefly describe the problem, e.g., "Extracting and quantifying sentiment (positive, negative, neutral) from text data."]
+* **Methodology:** 🪜 Applied natural language processing (NLP) techniques and lexical dictionaries to analyze text and determine sentiment scores.
+* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Analyzed customer reviews, identifying dominant sentiments towards product features and uncovering areas for improvement."]
+* **Technologies:** 💻 R (e.g., `tidytext`, `textdata`, `dplyr`, `ggplot2`).
+* **Explore Project:** ➡️ [Link to your-repo/r-projects/sentiment-analysis/your_script.Rmd or relevant folder]
+
 
 
 💻 Technologies & Libraries
