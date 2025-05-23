@@ -9,6 +9,7 @@ Each project folder typically contains:
 Jupyter Notebooks (.ipynb) detailing the analysis.
 Relevant datasets (if permissible and small enough).
 Markdown files or comments explaining the process and findings.
+
 📂 Project Showcase
 Here's an overview of the projects included in this repository. Click on the links to explore the detailed notebooks and code for each.
 
@@ -42,27 +43,52 @@ Project focused on forecasting future outcomes for an E-Commerce company's opera
 ➡️ Explore Project: [Here](https://github.com/comodu20/My-Work_ipynb/blob/ae26cdf0ae8cded33d784dd985c0b6b7f225c9c3/UEL-DS/Summative%20assessment_mod%204/Predictive%20analysis%20of%20customer%20intention%20with%20web%20browser%20data.ipynb)
 
 
+
 ⛓️ Markov Chains
 Projects exploring stochastic processes where future states depend only on the current state, often used in sequential data analysis.
 
 🚶 Markov Chain for Fast food restaurant
+
 ❓Problems
-Problem: Simulating a random walk
-Methodology: Constructed a Markov Chain model to calculate transition probabilities between states and predict long-term behavior.
-Key Insights/Outcome: [Summarize findings, e.g., "Uncovered common user journeys and identified high-traffic pages, predicting the probability of reaching a conversion page."]
-Technologies: Python, numpy, pandas.
-Explore Project: [Link to your-repo/markov-chains/your_notebook.ipynb or relevant folder]
+* Simulating a random walk through a restaurant's menu, where there are three states (meals on the menu)
+* Finding the stationary probability distribution
+* Computing probability for a specific sequence
+
+🪜 Methodology 
+* Constructed a Markov Chain model to calculate transition probabilities between states and predict long-term behavior.
+
+💡 Key Insights/Outcome
+* On random walks: Markov chains are used to model stock price movements, where the future price depends only on the current price (memoryless property). Simulating random walks helps in understanding market trends and risk assessment.
+* On methodology finding stationary probability distribution:
+* * The accuracy of the Monte Carlo simulation apprach increases as number of steps increases
+  * Repeated Matrix Multiplication method is fastest
+  * The Left Eigen Vector method (similar to output in singular value decomposition (SVD))
+
+💻 Technologies: Python, numpy, pandas.
+
+➡️ Explore Project: [Here](https://github.com/comodu20/My-Work_ipynb/blob/565ec2332b27923eb3a2fa563deb94e2754b39d7/UEL-DS/Markov%20processes/Markov%20chain%20simulation_1.ipynb)
 
 
 📉 Linear Regression
 Projects involving predicting a continuous outcome based on one or more predictor variables.
 
-🏠 Linear Regression for [Your Project Name/Domain]
-Problem: [Briefly describe the prediction task, e.g., "Predicting house prices based on features like size, location, and number of bedrooms."]
-Methodology: Applied Simple and Multiple Linear Regression to establish relationships between variables and build a predictive model.
-Key Insights/Outcome: [Summarize findings, e.g., "Identified significant features influencing house prices and built a model with an R-squared of X% for accurate predictions."]
-Technologies: Python, scikit-learn, pandas, numpy, matplotlib, seaborn.
-Explore Project: [Link to your-repo/linear-regression/your_notebook.ipynb or relevant folder]
+🏠 Simple Linear Regression for [Your Project Name/Domain]
+
+❓Problem
+* Simple salary predictor based on years of experience 
+
+🪜 Methodology 
+* Assign x and y values
+* Split data into training and testing sets
+* Build and fit a linear regression model from scikit learn
+
+💡 Key Insights/Outcome
+* Good accuracy for predictor.
+* This was a simple task to gain familiarity, at the time, with regression models
+
+💻 Technologies: Python, scikit-learn, pandas, numpy, matplotlib, seaborn.
+
+Explore Project: [Here](https://github.com/comodu20/My-Work_ipynb/blob/2e79b50a85eb4003a14cf73500cd03090bcca3b4/UEL-DS/Linear%20Regression/Simple%20Linear%20Regression.ipynb)
 
 
 💻 Technologies & Libraries
@@ -75,3 +101,39 @@ Scikit-learn: Machine learning algorithms and tools.
 Matplotlib / Seaborn: Data visualization.
 Jupyter Notebooks: Interactive computing environment.
 Plotly / Dash: (Optional, if you use them for interactive plots/apps)
+
+
+▶️ How to Navigate and Run Projects Locally
+To explore these projects on your local machine:
+
+1. Clone the repository:
+* In Bash:
+  - git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+  - cd YOUR_REPOSITORY_NAME
+
+2. Create a virtual environment (recommended):
+    python -m venv venv
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+3. **Install dependencies:** Most projects will rely on standard data science libraries. You can try installing common ones or check individual project folders for a `requirements.txt` file.bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+# Or if a requirements.txt exists:
+# pip install -r requirements.txt
+
+4. **Launch Jupyter Notebook:**bash
+jupyter notebook
+```
+5.  Navigate to the respective project folders and open the .ipynb files to view and run the code.
+
+🤝 Connect With Me
+I'm always keen to discuss data science, collaborate on projects, or explore new opportunities. Feel free to reach out!
+
+LinkedIn: [Morgan Omodu](https://www.linkedin.com/in/morganomodu/)
+Email: omodumorgan@gmail.com
+GitHub: [Here](https://github.com/comodu20)
+
+License
+This repository is licensed under the MIT License. See the LICENSE file for more details.
