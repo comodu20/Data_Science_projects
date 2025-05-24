@@ -152,7 +152,7 @@ A collection of data analysis and statistical modeling projects implemented usin
 #### 🧮 Factor Analysis
 
 ❓ Problem
-* Reducing the dimensionality of a dataset by identifying underlying latent factors.
+* Reducing the dimensionality of a dataset (13 independent variables) by identifying underlying latent factors.
 
 🪜 Methodology
 * Performed Exploratory Factor Analysis to uncover relationships between observed variables and a smaller set of unobserved factors.
@@ -161,7 +161,7 @@ A collection of data analysis and statistical modeling projects implemented usin
 * Identified 3 significant underlying factors explaining the variance in the dataset, simplifying further analysis.
 * Assessments here are highly subjective.
 
-💻 Technologies:** R (e.g., `psych`, `foreign`).
+💻 Technologies:** R (e.g., `psych`, `foreign`, `RWeka`).
 
 ➡️ Explore Project: [Here](https://github.com/comodu20/Data_Science_projects/tree/e53dbb065a0d51af8a8f7c640c620434428e0198/My-Work_R/Exploring_R/Factor%20analysis)
 
@@ -171,22 +171,34 @@ A collection of data analysis and statistical modeling projects implemented usin
 * Reducing the dimensionality of a high-dimensional dataset while retaining most of its variance.
 
 🪜 Methodology
-* Per
-* **Methodology:** 🪜 Performed Principal Component Analysis (PCA) to transform variables into a new set of orthogonal components.
-* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Successfully reduced 50 variables to 5 principal components, explaining 90% of the original variance, simplifying subsequent modeling."]
-* **Technologies:** 💻 R (e.g., `prcomp`, `factoextra`).
-* **Explore Project:** ➡️ [Link to your-repo/r-projects/pca-practice/your_script.Rmd or relevant folder]
+* Performed Principal Component Analysis (PCA) to transform variables into a new set of orthogonal components.
+
+💡 Key Insights/Outcome
+* I successfully reduced 100 independent variables to 2 principal components, explaining 92+% of the original variance, simplifying subsequent modeling.
+
+💻 Technologies: R (e.g., `prcomp`, `factoextra`, `ggplo2`).
+
+➡️ Explore Project:** ➡️ [Here](https://github.com/comodu20/Data_Science_projects/tree/2763b22c16129325db7813a65ba6b746ac689730/My-Work_R/Exploring_R/PCA%20practice)
 
 #### 😊 Sentiment Analysis
-* **Problem:** ❓ [Briefly describe the problem, e.g., "Extracting and quantifying sentiment (positive, negative, neutral) from text data."]
-* **Methodology:** 🪜 Applied natural language processing (NLP) techniques and lexical dictionaries to analyze text and determine sentiment scores.
-* **Key Insights/Outcome:** 💡 [Summarize findings, e.g., "Analyzed customer reviews, identifying dominant sentiments towards product features and uncovering areas for improvement."]
-* **Technologies:** 💻 R (e.g., `tidytext`, `textdata`, `dplyr`, `ggplot2`).
-* **Explore Project:** ➡️ [Link to your-repo/r-projects/sentiment-analysis/your_script.Rmd or relevant folder]
+
+❓ Problem
+* Extracting and quantifying sentiment (positive, negative, neutral) from text data.
+* Using restaurant_reviews
+
+🪜 Methodology
+* Applied Natural Language Processing (NLP) techniques and lexical dictionaries to analyze text and determine sentiment scores
+
+💡 Key Insights/Outcome
+* Analysed customer reviews, identifying dominant sentiments towards product features and uncovering areas for improvement.
+
+💻 Technologies: R (e.g., `tidytext`, `textdata`, `dplyr`, `ggplot2`, `syuzhet`).
+
+➡️ Explore Project: [Here](https://github.com/comodu20/Data_Science_projects/tree/2763b22c16129325db7813a65ba6b746ac689730/My-Work_R/Exploring_R/Sentiment%20analysis)
 
 
 
-💻 Technologies & Libraries
+## 💻 Technologies & Libraries
 This portfolio primarily leverages the Python ecosystem for data science, including:
 
 Python: Core programming language.
@@ -195,38 +207,45 @@ NumPy: Numerical computing.
 Scikit-learn: Machine learning algorithms and tools.
 Matplotlib / Seaborn: Data visualization.
 Jupyter Notebooks: Interactive computing environment.
-Plotly / Dash: (Optional, if you use them for interactive plots/apps)
+Rstudio (and required libraries)
+Plotly / Dash
 
 
-▶️ How to Navigate and Run Projects Locally
+## ▶️ How to Navigate and Run Projects Locally
 To explore these projects on your local machine:
 
 1. Clone the repository:
 * In Bash:
-  - git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-  - cd YOUR_REPOSITORY_NAME
+  - git clone https://github.com/comodu20/Data_Science_projects.git
+  - cd Data_Science_projects
 
 2. Create a virtual environment (recommended):
     python -m venv venv
 
-# On Windows:
+### On Windows:
 .\venv\Scripts\activate
 
-# On macOS/Linux:
+### On macOS/Linux:
 source venv/bin/activate
 
-3. Install dependencies: Most projects will rely on standard data science libraries. You can try installing common ones or check individual project folders for a `requirements.txt` file.bash
+3. Install dependencies:
+- Most projects will rely on standard data science libraries. You can try installing common ones or check individual project folders for a `requirements.txt` file.bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
-# Or if a requirements.txt exists:
+- **For R projects:** Open the R script or R Markdown file in RStudio. You'll typically need to install required packages within R using `install.packages("package_name")` for each package used in the script.
+
+#### Or if a requirements.txt exists:
   pip install -r requirements.txt
 
-4. **Launch Jupyter Notebook:**bash
-jupyter notebook
-```
-5.  Navigate to the respective project folders and open the .ipynb files to view and run the code.
+4. **Launch Jupyter Notebook (for Python notebooks):**
+```bash
+    jupyter notebook
+    ```
+    Or open RStudio and navigate to the R project folders to run `.R` or `.Rmd` files.
 
-🤝 Connect With Me
+5.  Navigate to the respective project folders and open the `.ipynb` (Python) or `.Rmd`/`.R` (R) files to view and run the code.
+
+## 🤝 Connect With Me
 I'm always keen to discuss data science, collaborate on projects, or explore new opportunities. Feel free to reach out!
 
 LinkedIn: [Morgan Omodu](https://www.linkedin.com/in/morganomodu/)
