@@ -43,8 +43,10 @@ rm(list = c("g", "trg", "tst", "mymodel", "pc", "testing", "training","p", "ind"
 
 library(psych)
 install.packages("foreign")
+library(RWeka)
+data <- read.arff("C:/Users/omodu/OneDrive/Documents/UK - UEL_UNICAF/Module 1 - Data Ecology/WK3-practice R/Practicing R/Factor analysis/places.arff")
 library(foreign)
-data <- read.arff("places.arff")
+data <- read.arff("places.arff") #doesn't work anymore
 View(data)
 data1 <- data[,-10]
 
