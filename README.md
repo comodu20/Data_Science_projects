@@ -202,43 +202,49 @@ A collection of data analysis and statistical modeling projects implemented usin
 This portfolio primarily leverages the Python ecosystem for data science, including:
 
 Python: Core programming language.
-Pandas: Data manipulation and analysis.
-NumPy: Numerical computing.
-Scikit-learn: Machine learning algorithms and tools.
-Matplotlib / Seaborn: Data visualization.
-Jupyter Notebooks: Interactive computing environment.
-Rstudio (and required libraries)
-Plotly / Dash
+* **Python:** Core programming language.
+* **R:** Core programming language for statistical computing and graphics.
+* **Pandas / dplyr:** Data manipulation and analysis.
+* **NumPy:** Numerical computing.
+* **Scikit-learn / caret:** Machine learning algorithms and tools.
+* **Matplotlib / Seaborn / ggplot2:** Data visualization.
+* **Jupyter Notebooks / R Markdown:** Interactive computing and reproducible reports.
+* **Specific R packages:** `sf`, `leaflet`, `psych`, `VIM`, `mice`, `rpart`, `markovchain`, `tidytext`, `tidyverse`, `textdata`, etc.
+* **Plotly / Dash**
 
 
 ## ▶️ How to Navigate and Run Projects Locally
 To explore these projects on your local machine:
 
 1. Clone the repository:
-* In Bash:
-  - git clone https://github.com/comodu20/Data_Science_projects.git
-  - cd Data_Science_projects
+  ```bash:
+  git clone https://github.com/comodu20/Data_Science_projects.git
+  cd Data_Science_projects
+  ```
 
-2. Create a virtual environment (recommended):
+2. Create a virtual environment (recommended for Python projects):
+    ```bash
     python -m venv venv
-
-### On Windows:
-.\venv\Scripts\activate
-
-### On macOS/Linux:
-source venv/bin/activate
+    #### On Windows:
+    .\venv\Scripts\activate
+    #### On macOS/Linux:
+    source venv/bin/activate
+    ```
 
 3. Install dependencies:
-- Most projects will rely on standard data science libraries. You can try installing common ones or check individual project folders for a `requirements.txt` file.bash
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+* **For Python projects:** Most projects will rely on standard data science libraries. You can try installing common ones or check individual project folders for a `requirements.txt` file.
+    ```bash
+    pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+    ```
 
-- **For R projects:** Open the R script or R Markdown file in RStudio. You'll typically need to install required packages within R using `install.packages("package_name")` for each package used in the script.
+* **For R projects:** Open the R script or R Markdown file in RStudio. You'll typically need to install required packages within R using `install.packages("package_name")` for each package used in the script.
 
 #### Or if a requirements.txt exists:
+  ```bash
   pip install -r requirements.txt
-
+  ```
 4. **Launch Jupyter Notebook (for Python notebooks):**
-```bash
+    ```bash
     jupyter notebook
     ```
     Or open RStudio and navigate to the R project folders to run `.R` or `.Rmd` files.
